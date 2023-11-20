@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40px;
   pointer-events: none;
 }
 
@@ -13,11 +13,18 @@
   }
 }
 
+
+
+
+.App-Paragraph {
+  font-size: 20px;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50ps;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -28,6 +35,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +43,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header-List{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Header-List li{
+  margin: 10px;
+  
+}
+
+.App-footer {position: fixed; /* Set the position to fixed */
+          bottom: 0; /* Stick the footer to the bottom of the viewport */
+          width: 100%; /* Set the width to 100% of the viewport width */
 }
